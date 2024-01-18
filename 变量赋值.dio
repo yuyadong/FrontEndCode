@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="jP-gJrSdhzTVGB5E2TeH" name="第 1 页">
+        <mxGraphModel dx="870" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;h2&gt;a = 1&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="160" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;h1&gt;1&lt;/h1&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="200" width="160" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;font face=&quot;Helvetica&quot;&gt;a&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="140" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;font face=&quot;Helvetica&quot;&gt;0xaf543203&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="164" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="&lt;font face=&quot;Helvetica&quot;&gt;1.找到内存 a 的变量地址&lt;br&gt;&lt;br&gt;2.运算右侧代码，得到要赋值的数据&lt;br&gt;&lt;br&gt;3.将右侧运算数据放入之前的地址中&lt;br&gt;&lt;br&gt;4.返回整个表达式的结果为右侧运算的数据&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="50" width="400" height="150" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

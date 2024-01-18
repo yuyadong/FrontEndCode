@@ -1,0 +1,129 @@
+<mxfile host="65bd71144e">
+    <diagram id="jP-gJrSdhzTVGB5E2TeH" name="第 1 页">
+        <mxGraphModel dx="870" dy="511" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="0" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="&lt;h2&gt;加法运算&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="252" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;h2&gt;&lt;font color=&quot;#ffffff&quot;&gt;均为原始类型&lt;/font&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="154" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;h2&gt;都转为字符串&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="91" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;h2&gt;有字符串的&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="485" y="41" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;h2&gt;都转为数字&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="225" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;h2&gt;无字符串的&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="485" y="175" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=classic;html=1;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="197" y="252" as="sourcePoint"/>
+                        <mxPoint x="237" y="217" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="11" value="" style="endArrow=classic;html=1;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="165" as="sourcePoint"/>
+                        <mxPoint x="450" y="130" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=classic;html=1;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="410" y="204" as="sourcePoint"/>
+                        <mxPoint x="450" y="234" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="&lt;h2&gt;拼接&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="91" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=classic;html=1;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="640" y="120" as="sourcePoint"/>
+                        <mxPoint x="690" y="120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="&lt;h2&gt;加法&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="711" y="225" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="641" y="254" as="sourcePoint"/>
+                        <mxPoint x="691" y="254" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="&lt;h2&gt;一端有NaN得到的还是NaN&lt;/h2&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="664" y="175" width="235" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;h2&gt;&lt;font color=&quot;#ffffff&quot;&gt;含有对象类型&lt;/font&gt;&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="348" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=classic;html=1;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="313" as="sourcePoint"/>
+                        <mxPoint x="240" y="343" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="&lt;h2&gt;调用valueOf&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="348" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;h2&gt;调用toString&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="348" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;h2&gt;报错&lt;/h2&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="899" y="348" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;startArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="280" y="220" as="sourcePoint"/>
+                        <mxPoint x="550" y="340" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="280" y="320"/>
+                            <mxPoint x="550" y="320"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;startArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="345" y="220" as="sourcePoint"/>
+                        <mxPoint x="760" y="340" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="345" y="300"/>
+                            <mxPoint x="760" y="300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=classic;html=1;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="411" y="380" as="sourcePoint"/>
+                        <mxPoint x="451" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="" style="endArrow=classic;html=1;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="630" y="377.5" as="sourcePoint"/>
+                        <mxPoint x="670" y="377.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" value="" style="endArrow=classic;html=1;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="850" y="377.5" as="sourcePoint"/>
+                        <mxPoint x="890" y="377.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="30" value="" style="endArrow=classic;html=1;fontColor=#ffffff;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="630" y="377.5" as="sourcePoint"/>
+                        <mxPoint x="670" y="377.5" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
