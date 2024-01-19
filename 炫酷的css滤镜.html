@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fixed定位不能相对视口定位了</title>
+    <style>
+      .block {
+        width: 200px;
+        padding: 50px;
+        border: 10px solid black;
+        margin: 50px auto;
+        filter: grayscale(1);
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+      }
+      .img {
+        width: 200px;
+        padding: 50px;
+        border: 10px solid black;
+        margin: 50px auto;
+        /* BBC 阴间滤镜 */
+        filter: hue-rotate(45deg);
+      }
+      img {
+        display: block;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <img src="./assets/avatar.jpg" alt="" />
+    </div>
+    <div class="img">
+      <img src="./assets/avatar.jpg" alt="" />
+    </div>
+  </body>
+</html>

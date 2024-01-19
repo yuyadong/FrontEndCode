@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>fixed定位不能相对视口定位了</title>
+    <style>
+      .block {
+        width: 200px;
+        padding: 50px;
+        border: 10px solid black;
+        margin: 50px auto;
+      }
+      button {
+        width: 100%;
+        padding: 10px;
+      }
+      .msg {
+        background: pink;
+        /* fixed 相对视口， 如果祖先元素存在 transform, 定位变成相对祖先元素 */
+        position: fixed;
+        padding: 20px;
+        left: 50%;
+        top: 50%;
+
+        transform: translate(-50%, -50%);
+        display: block;
+      }
+      .block:hover {
+        transform: scale(1.1);
+      }
+      /* .block:hover .msg {
+        display: block;
+      } */
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <button>点击弹窗</button>
+      <div class="msg">提示窗</div>
+    </div>
+  </body>
+</html>
