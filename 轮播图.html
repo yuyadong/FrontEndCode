@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=q, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #000;
+      }
+      .container {
+        width: 500px;
+        height: 300px;
+        margin: 10px auto;
+        overflow: hidden;
+        border: 1px solid #fff;
+        position: relative;
+        color: #fff;
+      }
+      .carousel {
+        height: 100%;
+        display: flex;
+        transition: 1s;
+      }
+      .carousel .item {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .indicator {
+        position: absolute;
+        bottom: 10px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+      }
+      .indicator span {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #ccc;
+        margin: 0 3px;
+        border-radius: 50%;
+        cursor: pointer;
+      }
+      .indicator span.active {
+        background: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="carousel">
+        <idv class="item">1</idv>
+        <idv class="item">2</idv>
+        <idv class="item">3</idv>
+        <idv class="item">4</idv>
+      </div>
+      <div class="indicator">
+        <span class="active"></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <script>
+      var doms = {
+        carousel: document.querySelector(".carousel"),
+        indicators: document.querySelectorAll(".indicator span"),
+      };
+
+      function moveTo(index) {
+        doms.carousel.style.transform = `translateX(-${
+          index * doms.carousel.children[0].clientWidth
+        }px)`;
+        var active = document.querySelector(".indicator span.active");
+        active.classList.remove("active");
+        doms.indicators[index].classList.add("active");
+      }
+
+      doms.carousel.style.width = 500 * doms.carousel.children.length + "px";
+      doms.indicators.forEach(function (item, index) {
+        item.onclick = function () {
+          moveTo(index);
+        };
+      });
+    </script>
+  </body>
+</html>

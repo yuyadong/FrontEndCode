@@ -25,7 +25,8 @@ class SuperTask {
       this.runningCount++;
 
       task()
-        .then(resolve, reject)
+        .then(
+          resolve, reject)
         .finally(() => {
           this.runningCount--;
           this._run();
